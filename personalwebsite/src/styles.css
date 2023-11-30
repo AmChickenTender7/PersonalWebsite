@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* COLORS */
+    --BLUEISHWHITE: rgb(242,245,255);
+    --BLUE: rgb(70,103,250);
+    --LIGHTBLUE: rgb(154,168,252);
+    --LINKBLUE: rgb(85,129,251);
+    --WHITE: whitesmoke;
+    
+
+    /* FONTS */
+    --FONT: "Nunito", sans-serif;
+    --FONT2: "Times New Roman", Times, serif;
+
+
+    font-family: var(--FONT);
+    background-color: var(--BLUEISHWHITE);
+    
+}
