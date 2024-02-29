@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tsukimi+Rounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Tsukimi+Rounded:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--WHITE);
+    scroll-behavior: smooth;
+}
+
+
+/* VARIABLES */
+:root {
+    /* COLORS */
+    --WHITE: rgba(245, 245, 245, 0.921);
+    --BLACK: rgb(29, 26, 29);
+    
+    /* FONTS */
+    --FONT: 'Lato', sans-serif;
+    --FANCY-FONT: 'Tsukimi Rounded', sans-serif;
+    --FANCY-FONT2: 'Montserrat', sans-serif;
+
+
+    background-color: var(--BLACK);
+}
+
+.content1 {
+    font-family: var(--FONT);
+}
+
+.content1-name {
+    position: absolute;
+    font-size: 7vw;
+    padding-top: 36vh;
+    padding-left: 15vw;
+    
+}
+
+.content1-headshot {
+    position: absolute;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    right: 20vw;
+    top: 27vh;
+    
+}
+
+.content1-desc {
+    position: absolute;
+    font-size: 3vw;
+    padding-top: 53vh;
+    padding-left: 15vw;
+}
+
+.content2 {
+    display: block;
+    position: relative;
+    text-align: left;
+    background: url("/img/light_paper_background_3024x4032.jpg") no-repeat;
+    top: 100vh;
+    line-height: 2;
+    
+}
+
+.content2-h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--BLACK);
+    font-size: 3rem;
+}
+
+.content2-table {
+    width: 100%;
+}
+
+.content2-h3 {
+    font-size: 1.5rem;
+}
+
+.content2-h4 {
+    display: block;
+}
+
+.content2-dbutton {
+    color: var(--BLACK);
+    font-family: var(--FANCY-FONT2);
+    font-size: 3vh;
+    padding: 1vh 1vw;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+ul {
+    padding-left: 1.5vw;
+}
+
+.content3 {
+    margin-top: 100vh;
+    background-image: linear-gradient(rgba(50, 50, 50,0.5),rgba(40, 40, 40,1));
+    
+}
+
+.content3-h2 {
+    padding-top: 1vh;
+    font-size: 3rem;
+}
+
+.content3-table {
+    width: 50%;
+    height: 150px;
+    font-size: 1.5rem;
+}
+
+.content3-h3 {
+    font-size: 1.5rem;
+}
+
+.content3-input {
+    font-family: var(--FANCY-FONT2);
+    padding: 1vh 1vw 1vh 1vw;
+    width: 35%;
+    margin-top: 1vh;
+    color: var(--BLACK);
+}
+
+.content3-input2 {
+    padding-bottom: 10vh;
+}
+
+.content3-inputButton {
+    font-family: var(--FANCY-FONT2);
+    padding: 1vh 1vw 1vh 1vw;
+    margin-top: 1vh;
+    color: var(--BLACK);
+    width: 30%;
+}
+
+.sidebar-rectangle {
+    overflow: hidden;
+    background-color: var(--WHITE);
+    height: 300vh;
+    width: 25vw;
+    float: right;   
+}
+
+
+/* UTILITY CLASSES */
+
+.offscreen {
+    position: absolute;
+    right: 10000000px;
+}
+
+.align-right {
+    float: right;
+    padding-right: 0.5vw;
+    
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* white background */
+            color: #000000; /* black text */
+        }
+        header {
+            background-color: #4b0082; /* purple header background */
+            color: #ffffff; /* white text */
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #311d3f; /* dark purple navigation background */
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff; /* white links */
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+        nav a:hover {
+            background-color: #5a189a; /* lighter purple on hover */
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #ffffff; /* white section background */
+        }
+        h1, h2, h3 {
+            color: #4b0082; /* purple headings */
+        }
+        p {
+            color: #000000; /* black text in paragraphs */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself and your interests.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Describe your work experience, positions, and responsibilities.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Detail your educational background, degrees, and any significant accomplishments.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com<br>
+        Phone: 123-456-7890<br>
+        LinkedIn: <a href="https://www.linkedin.com/yourprofile" style="color: #4b0082;">LinkedIn Profile</a></p>
+    </section>
+
+</body>
+</html>
