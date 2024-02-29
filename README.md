@@ -1,4 +1,4 @@
-# PersonalWebsite (WIP)
+# PersonalWebsite (WIP) (D)
 This is my personal website
 This project will show that I know how to use Angular to create a website
 
